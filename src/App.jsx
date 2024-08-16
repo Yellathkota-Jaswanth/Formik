@@ -7,7 +7,7 @@ import Homepage from "./Pages/HomePage";
 import BooksCollection from "./Pages/BooksPage";
 import AuthorCollection from "./Pages/AuthorPage";
 import { useState } from "react";
-import Footer from "./Components/Footer";
+
 function App() {
   const [data, setData] = useState([]);
   const [edit, setEdit] = useState({
@@ -81,7 +81,7 @@ function App() {
           }
         />
       </Routes>
-      <Footer></Footer>
+    
     </BrowserRouter>
   );
 }
